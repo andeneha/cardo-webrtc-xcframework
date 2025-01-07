@@ -7,8 +7,6 @@ let package = Package(
     name: "LiveKitWebRTC",
     platforms: [
         .iOS(.v13),
-        .macOS(.v10_15),
-        .macCatalyst(.v14),
     ],
     products: [
         .library(
@@ -20,8 +18,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "LiveKitWebRTC",
-            url: "https://github.com/livekit/webrtc-xcframework/releases/download/125.6422.12-exp.1/LiveKitWebRTC.xcframework.zip",
-            checksum: "689f016dca52d7ac94cae619ee96be0bafb006c7031f39cd72d01b0b4d3e446e"
+            url: "https://github.com/andeneha/cardo-webrtc-xcframework/releases/download/125.6422.12-cardo-exp/WebRTC.xcframework.zip",
+            checksum: "5f695db0804307a048a8a0a26a4d965cfddd33c2fdf773473511cc0361271122"
         ),
     ]
 )
